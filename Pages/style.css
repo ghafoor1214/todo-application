@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+html,body{
+    /* height: 100%; */
+    background: linear-gradient(100deg , purple  , orange , pink);
+    
+}
+
+.container{
+    margin-top: 130px;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    width: 50%;
+    text-align: center;
+}
+
+.container input{
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px
+}
+
+.container p{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.container button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    background-color: rgb(7, 7, 7);
+    color: rgb(243, 238, 238);
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 15px;
+}
+
+#email{
+    margin-top: 60px;
+    border: none;
+}
+
+#password{
+    border: none;
+    margin-top: 20px;
+}
+
+#fullName{
+    border: none;
+    margin-top: 20px;
+}
+
+#gender{
+    border: none;
+    margin-top: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input{
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btnUpdate{
+    padding: 7px;
+    cursor: pointer;
+}
+
+#paraGender{
+    margin-left: 10px;
+}
+
+.in{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(69,133,244);
+    padding: 10px 20px;
+}
+
+#paraName, #paraEmail, #paraGender{
+    font-size: 25px;
+    font-weight: 800;
+    margin-right: 160px;
+}
+
+#btnUpdate{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(41, 40, 40);
+    font-weight: 600;
+}
+
+.nav a #paraHome{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
